@@ -1,0 +1,27 @@
+.gridRow { 
+    float:left;
+    width:100%;
+
+}
+.grids {
+    overflow: hidden;
+    width: 90vw;
+    height: 80vh;
+}
+.grid {
+    min-width: 5px;
+    min-height: 5px;
+    width: 10px;
+    height: 10px;
+    float: left;
+    border: 1px solid black;
+}
+
+.grid:hover {
+    background-color: rgb(46, 46, 46);
+}
+
+
+.color {
+    background-color: red;
+}
